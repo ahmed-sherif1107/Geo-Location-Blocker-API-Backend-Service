@@ -46,11 +46,19 @@ Edit `appsettings.json` and add your IPGeolocation.io API key:
 ```bash
 dotnet run
 ```
+<<<<<<< HEAD
 The API will start (by default on `https://localhost:7004` or similar).
 
 ### 4. Expose the API via ngrok
 ```bash
 ngrok http 7004
+=======
+The API will start (by default on `http://localhost:5053` or similar).
+
+### 4. Expose the API via ngrok
+```bash
+ngrok http 5053
+>>>>>>> b1d9e79ae0447b6f374097b03f2d1b27123ad361
 ```
 - ngrok will provide a public URL (e.g., `https://xxxx.ngrok-free.app`).
 - Use this URL to access the API from any device or network.
@@ -84,4 +92,8 @@ ngrok http 7004
 - Check if your IP is blocked: `GET https://<ngrok-url>/api/IP/check-block/`
 
 ## License
+<<<<<<< HEAD
 MIT 
+=======
+MIT 
+>>>>>>> b1d9e79ae0447b6f374097b03f2d1b27123ad361

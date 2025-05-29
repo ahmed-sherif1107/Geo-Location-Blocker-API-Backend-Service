@@ -85,7 +85,11 @@
               "RelativeDocumentMoniker": "Controllers\\IPController.cs",
               "ToolTip": "E:\\CsharpProjects\\Countries\\Controllers\\IPController.cs",
               "RelativeToolTip": "Controllers\\IPController.cs",
+<<<<<<< HEAD
               "ViewState": "AgIAACEAAAAAAAAAAAAQwDQAAAAgAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAACEAAAAAAAAAAAAQwDIAAAAlAAAAAAAAAA==",
+>>>>>>> b1d9e79ae0447b6f374097b03f2d1b27123ad361
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-29T16:40:12.376Z",
               "EditorCaption": ""
