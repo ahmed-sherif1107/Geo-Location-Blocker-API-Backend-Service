@@ -46,11 +46,11 @@ Edit `appsettings.json` and add your IPGeolocation.io API key:
 ```bash
 dotnet run
 ```
-The API will start (by default on `https://localhost:7004` or similar).
+The API will start (by default on `http://localhost:5053` or similar).
 
 ### 4. Expose the API via ngrok
 ```bash
-ngrok http 7004
+ngrok http 5053
 ```
 - ngrok will provide a public URL (e.g., `https://xxxx.ngrok-free.app`).
 - Use this URL to access the API from any device or network.
