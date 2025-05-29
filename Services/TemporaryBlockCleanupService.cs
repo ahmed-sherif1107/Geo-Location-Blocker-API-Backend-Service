@@ -23,13 +23,13 @@ namespace Countries.Services
             {
                 try
                 {
-                    _logger.LogInformation("Starting temporary block cleanup");
+                    _logger.LogInformation("{Time}: Starting temporary block cleanup", DateTimeOffset.Now);
                     await _blockedCountriesRepository.RemoveExpiredTemporaryBlocksAsync();
-                    _logger.LogInformation("Completed temporary block cleanup");
+                    _logger.LogInformation("{Time}: Completed temporary block cleanup", DateTimeOffset.Now);
                 }
                 catch (Exception ex)
                 {
-                    _logger.LogError(ex, "Error occurred while cleaning up temporary blocks");
+                    _logger.LogError(ex, "{Time}: Error occurred while cleaning up temporary blocks", DateTimeOffset.Now);
                 }
 
                 await Task.Delay(_cleanupInterval, stoppingToken);
