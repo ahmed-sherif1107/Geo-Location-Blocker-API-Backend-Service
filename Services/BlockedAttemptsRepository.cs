@@ -4,58 +4,65 @@ using Countries.Dtos;
 
 namespace Countries.Services
 {
-    public class BlockedAttemptsRepository : IBlockedAttemptsRepository
-    {
-        private readonly ConcurrentDictionary<Guid, BlockedAttemptLog> _attempts = new();
+	public class BlockedAttemptsRepository : IBlockedAttemptsRepository
+	{
 
-        public async Task AddAttemptAsync(BlockedAttemptLog attempt)
-        {
-            _attempts.TryAdd(attempt.Id, attempt);
-            await Task.CompletedTask;
-        }
 
-        public async Task<PaginatedResponse<BlockedAttemptLog>> GetBlockedAttemptsAsync(PaginationRequest request)
-        {
-            var query = _attempts.Values.AsQueryable();
+		private readonly ConcurrentDictionary<Guid, BlockedAttemptLog> _attempts = new();
 
-            if (!string.IsNullOrWhiteSpace(request.SearchTerm))
-            {
-                var searchTerm = request.SearchTerm.ToLower();
-                query = query.Where(a =>
-                    a.CountryCode.ToLower().Contains(searchTerm) ||
-                    a.CountryName.ToLower().Contains(searchTerm) ||
-                    a.IPAddress.Contains(searchTerm));
-            }
+		// TEMPORARY: This constructor is for demonstration/testing purposes only.
+		// It populates the dictionary with sample data on application startup.
+		// REMOVE THIS CONSTRUCTOR IN A PRODUCTION ENVIRONMENT.
 
-            var totalCount = query.Count();
-            var items = query
-                .OrderByDescending(a => a.Timestamp)
-                .Skip((request.Page - 1) * request.PageSize)
-                .Take(request.PageSize)
-                .ToList();
 
-            return await Task.FromResult(new PaginatedResponse<BlockedAttemptLog>
-            {
-                Items = items,
-                TotalCount = totalCount,
-                PageNumber = request.Page,
-                PageSize = request.PageSize
-            });
-        }
+		public async Task AddAttemptAsync(BlockedAttemptLog attempt)
+		{
+			_attempts.TryAdd(attempt.Id, attempt);
+			await Task.CompletedTask;
+		}
 
-        public async Task ClearOldAttemptsAsync(DateTime before)
-        {
-            var attemptsToRemove = _attempts
-                .Where(kvp => kvp.Value.Timestamp < before)
-                .Select(kvp => kvp.Key)
-                .ToList();
+		public async Task<PaginatedResponse<BlockedAttemptLog>> GetBlockedAttemptsAsync(PaginationRequest request)
+		{
+			var query = _attempts.Values.AsQueryable();
 
-            foreach (var id in attemptsToRemove)
-            {
-                _attempts.TryRemove(id, out _);
-            }
+			if (!string.IsNullOrWhiteSpace(request.SearchTerm))
+			{
+				var searchTerm = request.SearchTerm.ToLower();
+				query = query.Where(a =>
+					a.CountryCode.ToLower().Contains(searchTerm) ||
+					a.CountryName.ToLower().Contains(searchTerm) ||
+					a.IPAddress.Contains(searchTerm));
+			}
 
-            await Task.CompletedTask;
-        }
-    }
+			var totalCount = query.Count();
+			var items = query
+				.OrderByDescending(a => a.Timestamp)
+				.Skip((request.Page - 1) * request.PageSize)
+				.Take(request.PageSize)
+				.ToList();
+
+			return await Task.FromResult(new PaginatedResponse<BlockedAttemptLog>
+			{
+				Items = items,
+				TotalCount = totalCount,
+				PageNumber = request.Page,
+				PageSize = request.PageSize
+			});
+		}
+
+		public async Task ClearOldAttemptsAsync(DateTime before)
+		{
+			var attemptsToRemove = _attempts
+				.Where(kvp => kvp.Value.Timestamp < before)
+				.Select(kvp => kvp.Key)
+				.ToList();
+
+			foreach (var id in attemptsToRemove)
+			{
+				_attempts.TryRemove(id, out _);
+			}
+
+			await Task.CompletedTask;
+		}
+	}
 }

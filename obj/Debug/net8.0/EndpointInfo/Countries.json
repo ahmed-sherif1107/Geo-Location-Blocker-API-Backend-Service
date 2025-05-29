@@ -126,6 +126,28 @@
         }
       }
     },
+    "/api/Countries/validate/{countryCode}": {
+      "get": {
+        "tags": [
+          "Countries"
+        ],
+        "parameters": [
+          {
+            "name": "countryCode",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/IP/country-lookup/{ipAddress}": {
       "get": {
         "tags": [
@@ -217,8 +239,8 @@
             "type": "string",
             "nullable": true
           },
-          "status": {
-            "$ref": "#/components/schemas/BlockStatus"
+          "isTemporary": {
+            "type": "boolean"
           },
           "durationMinutes": {
             "type": "integer",
@@ -227,15 +249,6 @@
           }
         },
         "additionalProperties": false
-      },
-      "BlockStatus": {
-        "enum": [
-          0,
-          1,
-          2
-        ],
-        "type": "integer",
-        "format": "int32"
       }
     }
   }

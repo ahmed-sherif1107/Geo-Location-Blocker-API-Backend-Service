@@ -74,6 +74,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Countries.Controllers.CountriesController",
+    "Method": "ValidateCountryCode",
+    "RelativePath": "api/Countries/validate/{countryCode}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "countryCode",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Countries.Controllers.IPController",
     "Method": "CheckBlock",
     "RelativePath": "api/IP/check-block/{ipAddress}",

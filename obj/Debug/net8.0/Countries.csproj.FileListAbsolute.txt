@@ -43,7 +43,6 @@ E:\CsharpProjects\Countries\obj\Debug\net8.0\staticwebassets\msbuild.build.Count
 E:\CsharpProjects\Countries\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Countries.props
 E:\CsharpProjects\Countries\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Countries.props
 E:\CsharpProjects\Countries\obj\Debug\net8.0\staticwebassets.pack.json
-E:\CsharpProjects\Countries\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 E:\CsharpProjects\Countries\obj\Debug\net8.0\Countries.csproj.Up2Date
 E:\CsharpProjects\Countries\obj\Debug\net8.0\Countries.dll
 E:\CsharpProjects\Countries\obj\Debug\net8.0\refint\Countries.dll
@@ -51,3 +50,4 @@ E:\CsharpProjects\Countries\obj\Debug\net8.0\Countries.pdb
 E:\CsharpProjects\Countries\obj\Debug\net8.0\Countries.genruntimeconfig.cache
 E:\CsharpProjects\Countries\obj\Debug\net8.0\ref\Countries.dll
 E:\CsharpProjects\Countries\obj\Debug\net8.0\Countries.sourcelink.json
+E:\CsharpProjects\Countries\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

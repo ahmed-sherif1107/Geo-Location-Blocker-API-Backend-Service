@@ -3,16 +3,52 @@
   "WorkspaceRootPath": "E:\\CsharpProjects\\Countries\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|e:\\csharpprojects\\countries\\controllers\\ipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|solutionrelative:controllers\\ipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|e:\\csharpprojects\\countries\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|e:\\csharpprojects\\countries\\controllers\\countriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|solutionrelative:controllers\\countriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|e:\\csharpprojects\\countries\\services\\blockedattemptsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|solutionrelative:services\\blockedattemptsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|e:\\csharpprojects\\countries\\controllers\\ipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|solutionrelative:controllers\\ipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|e:\\csharpprojects\\countries\\models\\blockedcountry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|solutionrelative:models\\blockedcountry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|e:\\csharpprojects\\countries\\services\\countryservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|solutionrelative:services\\countryservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|e:\\csharpprojects\\countries\\services\\interfaces\\icountryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|solutionrelative:services\\interfaces\\icountryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|e:\\csharpprojects\\countries\\models\\countrycodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|solutionrelative:models\\countrycodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|e:\\csharpprojects\\countries\\models\\countryinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|solutionrelative:models\\countryinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|e:\\csharpprojects\\countries\\dtos\\blockcountryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|solutionrelative:dtos\\blockcountryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|e:\\csharpprojects\\countries\\dtos\\paginationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|solutionrelative:dtos\\paginationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|e:\\csharpprojects\\countries\\services\\blockedcountriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|solutionrelative:services\\blockedcountriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|e:\\csharpprojects\\countries\\services\\geolocationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,14 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|e:\\csharpprojects\\countries\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|e:\\csharpprojects\\countries\\countries.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|solutionrelative:countries.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|e:\\csharpprojects\\countries\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,21 +70,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 184,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 10,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Countries",
-              "DocumentMoniker": "E:\\CsharpProjects\\Countries\\Countries.csproj",
-              "RelativeDocumentMoniker": "Countries.csproj",
-              "ToolTip": "E:\\CsharpProjects\\Countries\\Countries.csproj",
-              "RelativeToolTip": "Countries.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-29T16:46:11.872Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -67,13 +82,91 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "CountryService .cs",
+              "DocumentMoniker": "E:\\CsharpProjects\\Countries\\Services\\CountryService .cs",
+              "RelativeDocumentMoniker": "Services\\CountryService .cs",
+              "ToolTip": "E:\\CsharpProjects\\Countries\\Services\\CountryService .cs",
+              "RelativeToolTip": "Services\\CountryService .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T19:33:48.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CountryCodes.cs",
+              "DocumentMoniker": "E:\\CsharpProjects\\Countries\\Models\\CountryCodes.cs",
+              "RelativeDocumentMoniker": "Models\\CountryCodes.cs",
+              "ToolTip": "E:\\CsharpProjects\\Countries\\Models\\CountryCodes.cs",
+              "RelativeToolTip": "Models\\CountryCodes.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAmwAcBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T19:32:40.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CountryInfo.cs",
+              "DocumentMoniker": "E:\\CsharpProjects\\Countries\\Models\\CountryInfo.cs",
+              "RelativeDocumentMoniker": "Models\\CountryInfo.cs",
+              "ToolTip": "E:\\CsharpProjects\\Countries\\Models\\CountryInfo.cs",
+              "RelativeToolTip": "Models\\CountryInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T19:32:02.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICountryService.cs",
+              "DocumentMoniker": "E:\\CsharpProjects\\Countries\\Services\\Interfaces\\ICountryService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\ICountryService.cs",
+              "ToolTip": "E:\\CsharpProjects\\Countries\\Services\\Interfaces\\ICountryService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\ICountryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T19:31:36.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PaginationRequest.cs",
+              "DocumentMoniker": "E:\\CsharpProjects\\Countries\\Dtos\\PaginationRequest.cs",
+              "RelativeDocumentMoniker": "Dtos\\PaginationRequest.cs",
+              "ToolTip": "E:\\CsharpProjects\\Countries\\Dtos\\PaginationRequest.cs",
+              "RelativeToolTip": "Dtos\\PaginationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T19:25:11.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BlockedCountry.cs",
+              "DocumentMoniker": "E:\\CsharpProjects\\Countries\\Models\\BlockedCountry.cs",
+              "RelativeDocumentMoniker": "Models\\BlockedCountry.cs",
+              "ToolTip": "E:\\CsharpProjects\\Countries\\Models\\BlockedCountry.cs",
+              "RelativeToolTip": "Models\\BlockedCountry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T19:10:26.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "BlockCountryRequest.cs",
               "DocumentMoniker": "E:\\CsharpProjects\\Countries\\Dtos\\BlockCountryRequest.cs",
               "RelativeDocumentMoniker": "Dtos\\BlockCountryRequest.cs",
               "ToolTip": "E:\\CsharpProjects\\Countries\\Dtos\\BlockCountryRequest.cs",
               "RelativeToolTip": "Dtos\\BlockCountryRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-29T18:43:07.84Z",
               "EditorCaption": ""
@@ -86,14 +179,66 @@
               "RelativeDocumentMoniker": "Controllers\\CountriesController.cs",
               "ToolTip": "E:\\CsharpProjects\\Countries\\Controllers\\CountriesController.cs",
               "RelativeToolTip": "Controllers\\CountriesController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAWwCUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAPsAAAAAAAAAAAAmwPQAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-29T18:35:02.374Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\CsharpProjects\\Countries\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\CsharpProjects\\Countries\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAmwEYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T15:15:30.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BlockedAttemptsRepository.cs",
+              "DocumentMoniker": "E:\\CsharpProjects\\Countries\\Services\\BlockedAttemptsRepository.cs",
+              "RelativeDocumentMoniker": "Services\\BlockedAttemptsRepository.cs",
+              "ToolTip": "E:\\CsharpProjects\\Countries\\Services\\BlockedAttemptsRepository.cs",
+              "RelativeToolTip": "Services\\BlockedAttemptsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T19:47:20.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IPController.cs",
+              "DocumentMoniker": "E:\\CsharpProjects\\Countries\\Controllers\\IPController.cs",
+              "RelativeDocumentMoniker": "Controllers\\IPController.cs",
+              "ToolTip": "E:\\CsharpProjects\\Countries\\Controllers\\IPController.cs",
+              "RelativeToolTip": "Controllers\\IPController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAIwJYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T16:40:12.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BlockedCountriesRepository.cs",
+              "DocumentMoniker": "E:\\CsharpProjects\\Countries\\Services\\BlockedCountriesRepository.cs",
+              "RelativeDocumentMoniker": "Services\\BlockedCountriesRepository.cs",
+              "ToolTip": "E:\\CsharpProjects\\Countries\\Services\\BlockedCountriesRepository.cs",
+              "RelativeToolTip": "Services\\BlockedCountriesRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAWwCIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T19:11:56.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "launchSettings.json",
               "DocumentMoniker": "E:\\CsharpProjects\\Countries\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -101,37 +246,11 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-29T16:46:15.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-29T16:46:15.635Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IPController.cs",
-              "DocumentMoniker": "E:\\CsharpProjects\\Countries\\Controllers\\IPController.cs",
-              "RelativeDocumentMoniker": "Controllers\\IPController.cs",
-              "ToolTip": "E:\\CsharpProjects\\Countries\\Controllers\\IPController.cs",
-              "RelativeToolTip": "Controllers\\IPController.cs",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAWwJYAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T16:40:12.376Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\CsharpProjects\\Countries\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\CsharpProjects\\Countries\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T15:15:30.329Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "GeoLocationService.cs",
               "DocumentMoniker": "E:\\CsharpProjects\\Countries\\Services\\GeoLocationService.cs",
               "RelativeDocumentMoniker": "Services\\GeoLocationService.cs",
@@ -139,12 +258,11 @@
               "RelativeToolTip": "Services\\GeoLocationService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T15:04:18.58Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-29T15:04:18.58Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\CsharpProjects\\Countries\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -152,8 +270,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-29T15:01:52.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-29T15:01:52.168Z"
             }
           ]
         }

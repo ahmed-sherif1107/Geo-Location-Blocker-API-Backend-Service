@@ -1,4 +1,5 @@
 using Countries.Services;
+using Countries.Services.Interfaces;
 using Microsoft.AspNetCore.HttpOverrides;
 
 namespace Countries
@@ -17,8 +18,17 @@ namespace Countries
                 client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
             });
 
-            // Register repositories
-            builder.Services.AddSingleton<IBlockedCountriesRepository, BlockedCountriesRepository>();
+
+			builder.Services.AddHttpClient<ICountryService, CountryService>(client =>
+			{
+				client.BaseAddress = new Uri("https://restcountries.com/");
+				client.Timeout = TimeSpan.FromSeconds(30);
+				client.DefaultRequestHeaders.Add("User-Agent", "Countries-API-Client");
+			});
+
+
+			// Register repositories
+			builder.Services.AddSingleton<IBlockedCountriesRepository, BlockedCountriesRepository>();
             builder.Services.AddSingleton<IBlockedAttemptsRepository, BlockedAttemptsRepository>();
 
             // Register background service
