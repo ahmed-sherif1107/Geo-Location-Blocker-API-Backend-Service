@@ -356,6 +356,7 @@ For support and questions:
 - Create an issue in the repository
 - Check the Swagger documentation at `/swagger`
 - Review the application logs for detailed error information
+- Contact me using phone : +20 101 537 4542  Or via Linkedin : https://www.linkedin.com/feed/](https://www.linkedin.com/in/ahmedsheriff/
 
 ---
 
