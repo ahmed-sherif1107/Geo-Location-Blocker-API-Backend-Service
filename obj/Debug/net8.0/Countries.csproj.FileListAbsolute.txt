@@ -50,3 +50,4 @@ E:\CsharpProjects\Countries\obj\Debug\net8.0\refint\Countries.dll
 E:\CsharpProjects\Countries\obj\Debug\net8.0\Countries.pdb
 E:\CsharpProjects\Countries\obj\Debug\net8.0\Countries.genruntimeconfig.cache
 E:\CsharpProjects\Countries\obj\Debug\net8.0\ref\Countries.dll
+E:\CsharpProjects\Countries\obj\Debug\net8.0\Countries.sourcelink.json

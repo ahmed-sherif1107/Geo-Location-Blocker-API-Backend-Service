@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Mvc;
 using Countries.Services;
 using Countries.Models;
 using Countries.Dtos;
-using Countries.Enums;
 
 namespace Countries.Controllers
 {

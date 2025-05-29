@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|solutionrelative:controllers\\ipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|e:\\csharpprojects\\countries\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|e:\\csharpprojects\\countries\\controllers\\countriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|solutionrelative:controllers\\countriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|e:\\csharpprojects\\countries\\countries.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|solutionrelative:countries.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|e:\\csharpprojects\\countries\\dtos\\blockcountryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|solutionrelative:dtos\\blockcountryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|e:\\csharpprojects\\countries\\services\\geolocationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,8 +23,12 @@
       "RelativeMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|e:\\csharpprojects\\countries\\dtos\\ipgeolocationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|solutionrelative:dtos\\ipgeolocationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|e:\\csharpprojects\\countries\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|e:\\csharpprojects\\countries\\countries.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|solutionrelative:countries.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F12C4194-EFA3-4C4F-B329-2F72955EBE2E}|Countries.csproj|e:\\csharpprojects\\countries\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,12 +42,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 184,
-<<<<<<< HEAD
-          "SelectedChildIndex": 4,
-=======
-          "SelectedChildIndex": 5,
->>>>>>> b1d9e79ae0447b6f374097b03f2d1b27123ad361
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Countries",
+              "DocumentMoniker": "E:\\CsharpProjects\\Countries\\Countries.csproj",
+              "RelativeDocumentMoniker": "Countries.csproj",
+              "ToolTip": "E:\\CsharpProjects\\Countries\\Countries.csproj",
+              "RelativeToolTip": "Countries.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-29T16:46:11.872Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -53,15 +66,34 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-<<<<<<< HEAD
-=======
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BlockCountryRequest.cs",
+              "DocumentMoniker": "E:\\CsharpProjects\\Countries\\Dtos\\BlockCountryRequest.cs",
+              "RelativeDocumentMoniker": "Dtos\\BlockCountryRequest.cs",
+              "ToolTip": "E:\\CsharpProjects\\Countries\\Dtos\\BlockCountryRequest.cs",
+              "RelativeToolTip": "Dtos\\BlockCountryRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T18:43:07.84Z",
+              "EditorCaption": ""
             },
             {
->>>>>>> b1d9e79ae0447b6f374097b03f2d1b27123ad361
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CountriesController.cs",
+              "DocumentMoniker": "E:\\CsharpProjects\\Countries\\Controllers\\CountriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CountriesController.cs",
+              "ToolTip": "E:\\CsharpProjects\\Countries\\Controllers\\CountriesController.cs",
+              "RelativeToolTip": "Controllers\\CountriesController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAWwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T18:35:02.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "launchSettings.json",
               "DocumentMoniker": "E:\\CsharpProjects\\Countries\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -69,28 +101,8 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-<<<<<<< HEAD
-              "WhenOpened": "2025-05-29T16:46:15.635Z"
-=======
               "WhenOpened": "2025-05-29T16:46:15.635Z",
               "EditorCaption": ""
->>>>>>> b1d9e79ae0447b6f374097b03f2d1b27123ad361
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Countries",
-              "DocumentMoniker": "E:\\CsharpProjects\\Countries\\Countries.csproj",
-              "RelativeDocumentMoniker": "Countries.csproj",
-              "ToolTip": "E:\\CsharpProjects\\Countries\\Countries.csproj",
-              "RelativeToolTip": "Countries.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-<<<<<<< HEAD
-              "WhenOpened": "2025-05-29T16:46:11.872Z"
-=======
-              "WhenOpened": "2025-05-29T16:46:11.872Z",
-              "EditorCaption": ""
->>>>>>> b1d9e79ae0447b6f374097b03f2d1b27123ad361
             },
             {
               "$type": "Document",
@@ -100,18 +112,14 @@
               "RelativeDocumentMoniker": "Controllers\\IPController.cs",
               "ToolTip": "E:\\CsharpProjects\\Countries\\Controllers\\IPController.cs",
               "RelativeToolTip": "Controllers\\IPController.cs",
-<<<<<<< HEAD
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAgAAAAAAAAAA==",
-=======
-              "ViewState": "AgIAACEAAAAAAAAAAAAQwDQAAAAgAAAAAAAAAA==",
->>>>>>> b1d9e79ae0447b6f374097b03f2d1b27123ad361
+              "ViewState": "AgIAAIoAAAAAAAAAAAAWwJYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-29T16:40:12.376Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\CsharpProjects\\Countries\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -119,29 +127,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-<<<<<<< HEAD
               "WhenOpened": "2025-05-29T15:15:30.329Z"
-=======
-              "WhenOpened": "2025-05-29T15:15:30.329Z",
-              "EditorCaption": ""
->>>>>>> b1d9e79ae0447b6f374097b03f2d1b27123ad361
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IPGeolocationResponse.cs",
-              "DocumentMoniker": "E:\\CsharpProjects\\Countries\\Dtos\\IPGeolocationResponse.cs",
-              "RelativeDocumentMoniker": "Dtos\\IPGeolocationResponse.cs",
-              "ToolTip": "E:\\CsharpProjects\\Countries\\Dtos\\IPGeolocationResponse.cs",
-              "RelativeToolTip": "Dtos\\IPGeolocationResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-<<<<<<< HEAD
-              "WhenOpened": "2025-05-29T15:11:31.895Z"
-=======
-              "WhenOpened": "2025-05-29T15:11:31.895Z",
-              "EditorCaption": ""
->>>>>>> b1d9e79ae0447b6f374097b03f2d1b27123ad361
             },
             {
               "$type": "Document",
@@ -153,12 +139,8 @@
               "RelativeToolTip": "Services\\GeoLocationService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-<<<<<<< HEAD
-              "WhenOpened": "2025-05-29T15:04:18.58Z"
-=======
               "WhenOpened": "2025-05-29T15:04:18.58Z",
               "EditorCaption": ""
->>>>>>> b1d9e79ae0447b6f374097b03f2d1b27123ad361
             },
             {
               "$type": "Document",
@@ -168,18 +150,10 @@
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "E:\\CsharpProjects\\Countries\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-<<<<<<< HEAD
-              "WhenOpened": "2025-05-29T15:01:52.168Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-=======
               "WhenOpened": "2025-05-29T15:01:52.168Z",
               "EditorCaption": ""
->>>>>>> b1d9e79ae0447b6f374097b03f2d1b27123ad361
             }
           ]
         }

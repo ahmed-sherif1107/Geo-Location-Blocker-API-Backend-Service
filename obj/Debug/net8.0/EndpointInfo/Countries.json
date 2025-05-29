@@ -217,8 +217,8 @@
             "type": "string",
             "nullable": true
           },
-          "isTemporary": {
-            "type": "boolean"
+          "status": {
+            "$ref": "#/components/schemas/BlockStatus"
           },
           "durationMinutes": {
             "type": "integer",
@@ -227,6 +227,15 @@
           }
         },
         "additionalProperties": false
+      },
+      "BlockStatus": {
+        "enum": [
+          0,
+          1,
+          2
+        ],
+        "type": "integer",
+        "format": "int32"
       }
     }
   }
