@@ -79,8 +79,8 @@ namespace Countries.Controllers
             return HttpContext.Connection.RemoteIpAddress?.ToString();
         }
 
-        [HttpGet("country-lookup/{ipAddress?}")]
-        public async Task<IActionResult> LookupIP([FromRoute] string? ipAddress)
+        [HttpGet("country-lookup-by-ip")]
+        public async Task<IActionResult> LookupIP([FromQuery] string? ipAddress)
         {
             try
             {
@@ -111,8 +111,8 @@ namespace Countries.Controllers
             }
         }
 
-        [HttpGet("check-block/{ipAddress?}")]
-        public async Task<IActionResult> CheckBlock([FromRoute] string? ipAddress)
+        [HttpGet("check-block-by-ip")]
+        public async Task<IActionResult> CheckBlock([FromQuery] string? ipAddress)
         {
             try
             {

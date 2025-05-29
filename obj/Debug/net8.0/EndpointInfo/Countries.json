@@ -148,7 +148,7 @@
         }
       }
     },
-    "/api/IP/country-lookup/{ipAddress}": {
+    "/api/IP/country-lookup-by-ip": {
       "get": {
         "tags": [
           "IP"
@@ -156,8 +156,7 @@
         "parameters": [
           {
             "name": "ipAddress",
-            "in": "path",
-            "required": true,
+            "in": "query",
             "schema": {
               "type": "string"
             }
@@ -170,7 +169,7 @@
         }
       }
     },
-    "/api/IP/check-block/{ipAddress}": {
+    "/api/IP/check-block-by-ip": {
       "get": {
         "tags": [
           "IP"
@@ -178,8 +177,7 @@
         "parameters": [
           {
             "name": "ipAddress",
-            "in": "path",
-            "required": true,
+            "in": "query",
             "schema": {
               "type": "string"
             }

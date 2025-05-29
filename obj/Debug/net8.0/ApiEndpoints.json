@@ -92,7 +92,7 @@
   {
     "ContainingType": "Countries.Controllers.IPController",
     "Method": "CheckBlock",
-    "RelativePath": "api/IP/check-block/{ipAddress}",
+    "RelativePath": "api/IP/check-block-by-ip",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -108,7 +108,7 @@
   {
     "ContainingType": "Countries.Controllers.IPController",
     "Method": "LookupIP",
-    "RelativePath": "api/IP/country-lookup/{ipAddress}",
+    "RelativePath": "api/IP/country-lookup-by-ip",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
